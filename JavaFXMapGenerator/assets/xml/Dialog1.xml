@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Character name="Morris">
+	<Dialog tab="General">
+		<NW>#FeelTheBern</NW>
+		<NE>I'll see on election day</NE>
+		<E>I won't vote</E>
+		<SE>They all suck</SE>
+		<SW>#MakeAmericaGreat</SW>
+		<W>#ImWithHer</W>
+	</Dialog>
+	<Dialog tab="Mission">
+		<NW></NW>
+		<NE>Got any friends with information?</NE>
+		<E>I have to go</E>
+		<SE>You're lying</SE>
+		<SW></SW>
+		<W>Investigate</W>
+		<ChildDialog tab="Investigate">
+			<NW></NW>
+			<NE></NE>
+			<E>Nevermind</E>
+			<SE></SE>
+			<SW></SW>
+			<W></W>
+		</ChildDialog>
+	</Dialog>
+</Character>
